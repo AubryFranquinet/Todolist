@@ -1,0 +1,112 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap";
+body {
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+}
+h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 60px;
+  color: #aa3e93;
+}
+.button {
+  margin: auto;
+  display: flex;
+  display: flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #dd82d1;
+  margin: auto;
+  margin-top: 15px;
+  color: #dd82d1;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+input {
+  margin: auto;
+  display: flex;
+  width: 500px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+p {
+  margin: auto;
+  display: flex;
+  display: flex;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 300;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  background: #df9bc79c;
+  border-radius: 10px;
+}
+textarea:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+a {
+  color: #d9a7c7;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+#button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#button a {
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+#button:hover #circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+#button:hover a {
+  color: #e74ad2;
+}
+#circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #d9a7c7;
+  position: absolute;
+  transition: all 0.5s ease-Out;
+  top: 20px;
+  left: 70px;
+}
+.close {
+  background-color: rgba(170, 62, 147, 0);
+  color: #e74ad2;
+  font-size: 21px;
+  right: 34.5vw;
+  position: absolute;
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+/*# sourceMappingURL=index.c039f583.css.map */
